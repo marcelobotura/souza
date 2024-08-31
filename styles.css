@@ -16,13 +16,23 @@ body {
 
 h1 {
     font-size: 15pt;
-    color:#03A678;
+    color:#ffffff;
 }
 
-p {
+h2 {
+    margin-top: 50px;
+    font-weight: 900;
+    
+    text-transform: uppercase;
+    font-size: 10pt;
+    color:#03A678;
+
+}
+
+h3 {
     margin-top: 10px;
     font-size: 10pt;
-    color: #03A678;
+    color: #ffffff;
 }
 .container {
     width: 90%;
@@ -57,7 +67,7 @@ p {
 .link-list a {
     text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 15px 20px;
     border: 2px solid #ffffff;
     border-radius: 25px;
@@ -71,10 +81,11 @@ p {
 }
 
 .profile-pic {
+   
     width: 150px; 
     height: 150px; 
     border-radius: 50%;
-    border: 4px solid #1E5032; 
+    border: 2px solid #ffffff; 
     display: block;
     margin: 0 auto 20px; 
 }
@@ -109,4 +120,33 @@ p {
 /* Aplicação da Animação ao Passar o Mouse */
 .link-list a:hover {
     animation: bounce 1s;
+}
+
+.projetinhos {
+    list-style: none;
+    padding: 0;
+}
+
+.projetinhos li {
+    margin: 15px 0;
+}
+
+.projetinhos a {
+    text-decoration: none;
+    color: #02735E;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: 2px solid #02735E;
+    border-radius: 25px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.projetinhos a:hover {
+    background-color: #731702;
+    color:#fff;
+}
+
+.projetinhos h1:hover {
+    color: #F27405;
 }
