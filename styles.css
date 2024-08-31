@@ -15,7 +15,6 @@ body {
 }
 
 h1 {
-    
     font-size: 15pt;
     color:#03A678;
 }
@@ -72,14 +71,13 @@ p {
 }
 
 .profile-pic {
-    width: 150px; /* Ajuste o tamanho conforme necessário */
-    height: 150px; /* Ajuste o tamanho conforme necessário */
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%;
-    border: 4px solid #1E5032; /* Borda arredondada */
+    border: 4px solid #1E5032; 
     display: block;
-    margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaçamento inferior */
+    margin: 0 auto 20px; 
 }
-
 
 /* Estilos dos Botões com Animação de Pulo */
 .link-list a {
