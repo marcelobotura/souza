@@ -8,7 +8,7 @@
 /* Estilos Personalizados */
 body {
     font-family: 'Roboto', sans-serif;
-    background: #014040;
+    background: #0D0D0D;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -16,7 +16,7 @@ body {
 
 h1 {
     font-size: 15pt;
-    color:#ffffff;
+    color:#F2F2F2;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
 h3 {
     margin-top: 10px;
     font-size: 10pt;
-    color: #ffffff;
+    color: #BFBFBF;
 }
 .container {
     width: 90%;
@@ -77,7 +77,7 @@ h3 {
 
 .link-list a:hover {
     background-color: #ffffff;
-    color:#731702;
+    color:#02735E;
 }
 
 .profile-pic {
@@ -85,7 +85,7 @@ h3 {
     width: 150px; 
     height: 150px; 
     border-radius: 50%;
-    border: 2px solid #ffffff; 
+    border: 6px solid #ffffff; 
     display: block;
     margin: 0 auto 20px; 
 }
@@ -133,18 +133,18 @@ h3 {
 
 .projetinhos a {
     text-decoration: none;
-    color: #02735E;
+    color: #03A678;
     font-weight: bold;
     padding: 15px 20px;
-    border: 2px solid #02735E;
-    border-radius: 25px;
+    border: 2px solid #03A678;
+    border-radius: 8px;
     display: block;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .projetinhos a:hover {
-    background-color: #731702;
-    color:#fff;
+    background-color: #F2F2F2;
+    color:#0D0D0D;
 }
 
 .projetinhos h1:hover {
